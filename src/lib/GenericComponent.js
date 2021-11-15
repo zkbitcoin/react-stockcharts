@@ -265,7 +265,7 @@ class GenericComponent extends Component {
 			}
 		}
 	}
-	componentWillMount() {
+	UNSAFE_componentWillMount() {
 		const { subscribe, chartId } = this.context;
 		const { clip, edgeClip } = this.props;
 
@@ -317,7 +317,7 @@ class GenericComponent extends Component {
 			this.drawOnCanvas();
 		}
 	}
-	componentWillReceiveProps(nextProps, nextContext) {
+	UNSAFE_componentWillReceiveProps(nextProps, nextContext) {
 		const { xScale, plotData, chartConfig, getMutableState } = nextContext;
 
 		this.props.debug(nextContext);
