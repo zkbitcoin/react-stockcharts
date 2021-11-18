@@ -277,7 +277,7 @@ class GenericComponent extends Component {
 				getPanConditions: this.getPanConditions,
 			}
 		);
-		this.componentWillReceiveProps(this.props, this.context);
+		this.UNSAFE_componentWillReceiveProps(this.props, this.context);
 	}
 	componentWillUnmount() {
 		const { unsubscribe } = this.context;

@@ -203,7 +203,7 @@ InteractiveYCoordinate.defaultProps = {
 			dx: 0,
 			rectWidth: 50,
 			rectHeight: 20,
-			displayFormat: format(".2f"),
+			displayFormat: format(".8f"),
 		}
 	},
 	hoverText: {

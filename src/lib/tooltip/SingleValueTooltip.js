@@ -79,7 +79,7 @@ SingleValueTooltip.defaultProps = {
 	origin: [0, 0],
 	labelFill: "#4682B4",
 	valueFill: "#000000",
-	yDisplayFormat: format(".2f"),
+	yDisplayFormat: format(".8f"),
 	displayValuesFor: displayValuesFor,
 	xAccessor: noop,
 	yAccessor: identity,

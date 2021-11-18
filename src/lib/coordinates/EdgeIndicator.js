@@ -78,7 +78,7 @@ EdgeIndicator.defaultProps = {
 	orient: "left",
 	edgeAt: "left",
 	textFill: "#FFFFFF",
-	displayFormat: format(".2f"),
+	displayFormat: format(".8f"),
 	yAxisPad: 0,
 	rectHeight: 20,
 	rectWidth: 50,

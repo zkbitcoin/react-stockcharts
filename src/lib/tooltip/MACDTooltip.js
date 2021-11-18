@@ -95,7 +95,7 @@ MACDTooltip.propTypes = {
 
 MACDTooltip.defaultProps = {
 	origin: [0, 0],
-	displayFormat: format(".2f"),
+	displayFormat: format(".8f"),
 	displayValuesFor: displayValuesFor,
 	className: "react-stockcharts-tooltip",
 };

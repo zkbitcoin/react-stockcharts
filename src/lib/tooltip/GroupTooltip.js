@@ -260,7 +260,7 @@ GroupTooltip.propTypes = {
 GroupTooltip.defaultProps = {
 	className: "react-stockcharts-tooltip react-stockcharts-group-tooltip",
 	layout: "horizontal",
-	displayFormat: format( ".2f" ),
+	displayFormat: format( ".8f" ),
 	displayValuesFor: displayValuesFor,
 	origin: [0, 0],
 	width: 60,
