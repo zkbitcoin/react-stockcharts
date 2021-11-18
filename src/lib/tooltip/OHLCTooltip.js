@@ -117,7 +117,7 @@ OHLCTooltip.defaultProps = {
 	xDisplayFormat: timeFormat("%Y-%m-%d"),
 	volumeFormat: format(".4s"),
 	percentFormat: format(".2%"),
-	ohlcFormat: format(".2f"),
+	ohlcFormat: format(".8f"),
 	displayValuesFor: displayValuesFor,
 	origin: [0, 0],
 	children: defaultDisplay,
